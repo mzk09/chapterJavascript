@@ -7,7 +7,7 @@ let float1= 3.14;
 let str1 = 'JavaScriptを覚えよう';
 
 let orange = 120;
-let apple = 120;
+let apple = 20;
 
 if(orange < apple){
   alert('みかんの値段がりんごより安い');
