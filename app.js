@@ -37,8 +37,10 @@ for(i=1;i<11;i++){
 
 alert('1から10まで足し算した結果は'+num+'です');
 
-for(j=1;j<=10;j++){
-  if(j%3==0){
-    alert(j);
+for(j=1;j<=50;j++){
+  if(j%3==0 && j%5==0){
+    alert(j+"Fizz");
+  }else if(j%3==0){
+    alert(j+"Buzz");
   }
 }
