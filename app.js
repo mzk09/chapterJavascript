@@ -37,10 +37,20 @@ for(i=1;i<11;i++){
 
 alert('1から10まで足し算した結果は'+num+'です');
 
-for(j=1;j<=50;j++){
-  if(j%3==0 && j%5==0){
-    alert(j+"Fizz");
-  }else if(j%3==0){
-    alert(j+"Buzz");
-  }
+// for(j=1;j<=50;j++){
+//   if(j%3==0 && j%5==0){
+//     alert(j+"Fizz");
+//   }else if(j%3==0){
+//     alert(j+"Buzz");
+//   }
+// }
+
+var str ="webcamp"
+
+function foo(){
+  console.log(str)
+  var str = "dmm webcamp"
+  console.log(str)
 }
+
+foo()
